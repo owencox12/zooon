@@ -1,0 +1,59 @@
+.button {
+    &--header {
+        width: 226px;
+        height: 48px;
+        background: #961914;
+        border-radius: 8px;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-top: 25px;
+    }
+    &--racions {
+        width: 171px;
+        height: 48px;
+        background: none;
+        border-radius: 8px;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #961914;
+        border: 1px solid #961914 ;
+        margin-top: 23px;
+    }
+    &--racions-block {
+        margin-top: 73px;
+        width: 171px;
+        height: 48px;
+        background: #961914;
+        border-radius: 8px;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &--contacts {
+        width: 214px;
+        height: 48px;
+        background: #FFF4F3;
+        border-radius: 8px;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 140%;
+        color: #EC7973;
+    }
+}

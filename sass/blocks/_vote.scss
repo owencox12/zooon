@@ -1,0 +1,49 @@
+.vote {
+    min-height: 350px;
+    padding: 30px 0 30px 0;
+    &__title {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 130%;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 57px;
+    }
+    &__item {
+        width: 23%;
+        &_title {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 130%;
+            color: #000000;
+            margin-top: 19px;
+        }
+        &_descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;
+            color: #000000;
+            width: 280px;
+            margin-top: 8px;
+            &_second {
+                width: 281px;
+            }
+            &_third {
+                width: 220px;
+            }
+            &_four {
+                width: 282px;
+            }
+        }
+    }
+}

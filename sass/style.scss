@@ -1,0 +1,28 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    max-width: 1177px;
+    margin: 0 auto;
+}
+body.lock {
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/about';
+@import 'blocks/racions';
+@import 'blocks/vote';
+@import 'blocks/withlove';
+@import 'blocks/how';
+@import 'blocks/questions';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/arrow';
+@import 'blocks/media';

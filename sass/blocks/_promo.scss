@@ -1,0 +1,68 @@
+.promo {
+    padding: 16px 0 130px 0;
+    height: 800px;
+    background: url(../../image/bgcolor.png) center center / cover no-repeat;
+    position: relative;
+    &__header {
+        // transition: all .3s;
+        top: -100%;
+        &_active {
+            position: fixed;
+            width: 100%;
+            height: 80px;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, .9);
+            transition: all .5s;
+            z-index: 1000;
+        }
+    }
+    &__image {
+        position: absolute;
+        right: 0;
+        top: 20%;
+    }
+    .header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__menu {
+        list-style-type: none;
+        display: flex;
+        &_list {
+            margin: 0 26.5px;
+            a {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 140%;
+                text-decoration: none;
+
+                color: #FFFFFF;
+            }
+        }
+    }
+    &__text {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 130%;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: left;
+        margin-top: 130px;
+    }
+    &__descr {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+        width: 367px;
+        margin-top: 10px;
+    }
+}

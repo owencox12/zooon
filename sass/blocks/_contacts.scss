@@ -1,0 +1,165 @@
+.contacts {
+    background: #961914;
+    border-radius: 2px;
+    min-height: 530px;
+    padding: 80px 20px;
+    position: relative;
+    &__image_first {
+        position: absolute;
+        left: 0;
+        top: 20%;
+
+    }
+    &__image_second {
+        position: absolute;
+        right: 0%;
+        top: 0;
+    }
+    &__image_third {
+        position: absolute;
+        left: 33%;
+        top: 35%;
+        img {
+            width: 200px;
+        }
+    }
+    &__image_four {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        img {
+            width: 200px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_title {
+            font-family: Oswald;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 46px;
+            line-height: 130%;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            &_second {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 140%;
+                color: #FFFFFF;
+                margin-top: 30px;
+            }
+        }
+        &_text {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;
+            color: #FFFFFF;
+            margin-top: 8px;
+            width: 302px;
+        }
+        &_phone {
+            margin-top: 32px;
+            a {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 140%;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        &_social {
+            width: 223px;
+            height: 40px;
+            background: rgba(255, 255, 255, .2);
+            border-radius: 8px;
+            padding: 10px 15px 10px 15px; 
+            margin-top: 24px;
+            a {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 140%;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        &_subs {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;
+            color: #FFFFFF;
+            width: 302px;
+            margin-top: 40px;
+        }
+        &_subtitle {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;    
+            color: #FFFFFF; 
+            margin-top: 4px;
+        }
+        &_form {
+            margin-top: 34px;
+            &_textarea {
+                width: 650px;
+                height: 122px;
+                background: rgba(255, 255, 255, 0.05);
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                border-radius: 8px;
+                margin-top: 16px;
+                resize: none;
+                padding-left: 15px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                color: #FFFFFF;
+            }
+            &_footer {
+                margin-top: 22px;
+                display: flex;
+                justify-content: space-between;
+                &_input {
+                    span {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 140%;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            &_inputs {
+                display: flex;
+                &_input {
+                    width: 306px;
+                    height: 48px;
+                    background: rgba(255, 255, 255, 0.05);
+                    border: 1px solid rgba(255, 255, 255, 0.5);
+                    border-radius: 8px;
+                    margin: 0 10px;
+                    padding-left: 15px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}

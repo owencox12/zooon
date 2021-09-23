@@ -1,0 +1,60 @@
+.how {
+    min-height: 400px;
+    padding: 180px 0 30px 0;
+    &__title {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 130%;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+    &__item {
+        &_images {
+            display: flex;
+            align-items: center;
+            &_second {
+                margin-left: 70px;
+            }
+        }
+        &_title {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 130%;
+            color: #000000;
+            margin-top: 19px;
+        }
+        &_descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;
+            color: #000000;
+            margin-top: 8px;
+            &_first {
+                width: 284px;
+            }
+            &_second {
+                width: 282px;
+            }
+            &_third {
+                width: 279px;
+            }
+            &_four {
+                width: 282px;
+            }
+            span {
+                color: red;
+            }
+        }
+    }
+}

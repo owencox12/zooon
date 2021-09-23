@@ -1,0 +1,46 @@
+.withlove {
+    min-height: 835px;
+    padding: 80px 0 0px 0;
+    background: #FFF4F3;
+    &__images {
+        position: absolute;
+        left: -26%;
+        top: -14%;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_images {
+            position: relative;
+            &_first {
+                position: relative;
+            }
+            &_second {
+                position: absolute;
+                right: -20%;
+                bottom: -30%;
+            }
+        }
+        &_title {
+            font-family: Oswald;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 46px;
+            line-height: 130%;
+            letter-spacing: 0.02em;
+            color: #000000;
+            margin-bottom: 40px;
+        }
+        &_descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 130%;
+            color: #434242;
+            width: 520px;
+        }
+    }
+}
